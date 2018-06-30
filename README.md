@@ -3,7 +3,11 @@ Project to containerize a web application and have it automatically deploy and s
 
 ## Tools involved
 Python Django web framework
+
 Docker
+
 AWS
+
 NGINX
+
 gunicorn
