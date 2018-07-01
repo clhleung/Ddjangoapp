@@ -1,0 +1,9 @@
+# requirements.txt
+
+# Text file with rough requirements of what Docker needs to obtain through pip install
+
+Django<1.11, >=1.10  
+gunicorn==19.6.0  
+psycopg2==2.7.5
+celery==4.2.0
+redis==2.10.6
