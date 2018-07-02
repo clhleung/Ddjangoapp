@@ -1,5 +1,6 @@
 # requirements.txt
 
+# Standard Python project dependencies file
 # Text file with rough requirements of what Docker needs to obtain through pip install
 
 Django<1.11, >=1.10  
