@@ -22,8 +22,17 @@ will be used to run the underlying services (web server, Python web framework, d
 
 Python Django web framework
 
-How to test with Django: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing
+How to test with Django: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing 
 
 NGINX
 
 gunicorn
+
+Kubernetes
+
+In some sense, Kubernetes pod (smallest & simplest unit in Kubernetes object model) shares some similarities with the
+functionalities of Docker-compose, which allows one to run an application consisting of several inter-connected
+Docker containers in a yml file. However, pods allow one to scale/replicate an application up & down as needed, in
+other words, provide orchestration which Docker does not provide.
+
+https://stackoverflow.com/questions/33946144/what-are-the-differences-between-kubernetes-pods-and-docker-composes-composur
