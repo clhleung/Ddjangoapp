@@ -22,6 +22,8 @@ will be used to run the underlying services (web server, Python web framework, d
 
 Python Django web framework
 
+How to test with Django: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing
+
 NGINX
 
 gunicorn
