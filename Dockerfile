@@ -11,6 +11,9 @@ ENV PYTHONUNBUFFERED 1
 
 # Make the directories needed, if not created already
 RUN mkdir -p /services/djangoapp/src
+RUN mkdir /logs
+RUN mkdir /logs/nginx
+RUN mkdir /logs/gunicorn
 
 # Copy over the requirements.txt file to the directory the docker container will use
 COPY requirements.txt /services/djangoapp/src
