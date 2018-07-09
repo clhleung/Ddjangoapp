@@ -27,5 +27,7 @@ pip install -r requirements.txt
 # Exposes container port so outside services can communicate with it
 EXPOSE 5005
 
-# Some command that will be executed
-CMD python 
+# Copy over Supervisord config file to /etc/supervisor/conf.d where it will be read
+# Run Supervisord, & auto-start Nginx and Gunicorn
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+CMD ["/usr/bin/supervisord"]
