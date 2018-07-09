@@ -24,6 +24,13 @@ Python Django web framework
 
 How to test with Django: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing 
 
+Supervisord process watcher
+
+A tool used to ensure certain scripts run all the time. This tool will mainly be used
+to ensure the Gunicorn server will be up in the face of failures.
+
+https://serversforhackers.com/c/monitoring-processes-with-supervisord
+
 NGINX
 
 gunicorn
